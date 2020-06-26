@@ -1,0 +1,47 @@
+.features-container{
+  position: relative;
+  background: #323232;
+  z-index: 0;
+  overflow: hidden;
+  .wave{
+    position: absolute;
+    left: 0;
+    bottom:  -25%;
+    z-index: -1;
+    width: 100%;
+  }
+ 
+}
+
+.features{
+  min-height: 90vh;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .cards{
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    .card{
+      border-radius: 3%;
+      background: white;
+      margin: 0rem 3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      overflow: hidden;
+      
+      h4{
+        margin: 1rem 0rem;
+      }
+      p{
+        padding: 2rem;
+      }
+      img{
+        object-fit: cover;
+      }
+    }
+  }
+}
